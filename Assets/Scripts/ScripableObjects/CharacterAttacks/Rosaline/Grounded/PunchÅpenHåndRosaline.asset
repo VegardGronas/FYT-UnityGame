@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4d74bb06c07534f903738d14500e43, type: 3}
+  m_Name: "Punch\xC5penH\xE5ndRosaline"
+  m_EditorClassIdentifier: 
+  VFX:
+  - {fileID: 9167655173339076945, guid: 414cff34d9e02e94b9846b0ca94f4bd0, type: 3}
+  - {fileID: 1425412257072258416, guid: f3dbce2198ddbd141aa519b32fe89aea, type: 3}
+  hitSound:
+  - {fileID: 8300000, guid: 0f7fed9f4de756f4da8f7a142a355488, type: 3}
+  - {fileID: 8300000, guid: 3b743c986131a2746a33ea02de99e8f8, type: 3}
+  dmg:
+  - 10
+  - 15
+  reaction: 0200000005000000
+  lSpeed:
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0.02}
+  lSpeedSelf:
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  lerpTarget:
+  - {x: 0, y: 0}
+  - {x: 0, y: -1}
+  force:
+  - {x: 9, y: 0}
+  - {x: 12.91, y: 1.26}
+  selfForce:
+  - {x: 8, y: 0}
+  - {x: 9, y: 0}
+  bodyTransform: 0000000000000000
+  forceMode: 0100000001000000
+  selfForceMode: 0100000001000000
+  attackPosition: 0000000000000000
+  definedReaction: 0000000000000000

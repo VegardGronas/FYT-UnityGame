@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4d74bb06c07534f903738d14500e43, type: 3}
+  m_Name: Punch
+  m_EditorClassIdentifier: 
+  VFX:
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 3050413409303930321, guid: b1229f97b21123b459d457a18eca433b, type: 3}
+  dmg:
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  reaction: 0200000002000000020000000200000002000000020000000200000007000000
+  lSpeed:
+  - {x: 1, y: 0}
+  - {x: 1, y: 0}
+  - {x: 1, y: 0}
+  - {x: 1, y: 0}
+  - {x: 1, y: 0}
+  - {x: 1, y: 0}
+  - {x: 1, y: 0}
+  - {x: 2, y: 4}
+  force:
+  - {x: 0, y: 0}
+  - {x: -0.3, y: 0}
+  - {x: -0.3, y: 0}
+  - {x: -0.3, y: 0}
+  - {x: -0.3, y: 0}
+  - {x: -0.3, y: 0}
+  - {x: -0.3, y: 0}
+  - {x: 3, y: 1}
+  selfForce:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  bodyTransform: 0000000000000000010000000000000001000000000000000100000000000000
+  notes: 0 = Left arm, 1 = Right arm, 2 = Left leg, 3 = Right Leg
+  forceMode: 0100000001000000010000000100000001000000010000000100000001000000
+  selfForceMode: 0000000000000000000000000000000000000000000000000000000000000000

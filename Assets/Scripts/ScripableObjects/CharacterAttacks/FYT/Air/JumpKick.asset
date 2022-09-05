@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4d74bb06c07534f903738d14500e43, type: 3}
+  m_Name: JumpKick
+  m_EditorClassIdentifier: 
+  VFX:
+  - {fileID: 3050413409303930321, guid: b1229f97b21123b459d457a18eca433b, type: 3}
+  hitSound:
+  - {fileID: 8300000, guid: 0ce27bbc661c2e5419414e43e3161b87, type: 3}
+  dmg:
+  - 10
+  reaction: 05000000
+  lSpeed:
+  - {x: 4, y: 4}
+  lSpeedSelf:
+  - {x: 0.1, y: 0.1}
+  lerpTarget:
+  - {x: 1, y: -1}
+  force:
+  - {x: 0, y: 0}
+  selfForce:
+  - {x: 10, y: 2}
+  bodyTransform: 02000000
+  forceMode: 01000000
+  selfForceMode: 01000000
+  attackPosition: 02000000
+  definedReaction: 00000000

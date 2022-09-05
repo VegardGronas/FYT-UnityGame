@@ -1,0 +1,23 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl gjerde.002
+Ns 344.116210
+Ka 0.543307 0.543307 0.543307
+Kd 0.114935 0.114935 0.114935
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl stairs.001
+Ns 40.315590
+Ka 0.346457 0.346457 0.346457
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:\\RevertedBackupFightGameFYT11.05\\BachelorGame_Version6_LaptopVersion\\Assets\\Assets 1\\city stage\\city.fbm\\Concrete-Texture-3-darken.jpg

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb43ed4315e88142af8e0cccb570e46, type: 3}
+  m_Name: Rosaline
+  m_EditorClassIdentifier: 
+  name: Rosaline
+  prefab: {fileID: 270938444648533502, guid: 4ea75b38172aba54b9a900d3d8da4cd4, type: 3}
+  maxHealth: 100
+  image: {fileID: 21300000, guid: 53c3d701401b73749bc4d0e7ab714213, type: 3}

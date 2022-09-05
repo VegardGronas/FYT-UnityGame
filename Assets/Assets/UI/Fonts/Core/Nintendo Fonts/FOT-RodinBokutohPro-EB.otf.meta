@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: cdfa90cdac373d34cb17428ab8863bb3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - FOT-RodinBokutoh Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: aac4e5fca4ef3c2498d8a7d830dcce4b, type: 3}
+  - {fileID: 12800000, guid: 40ff16fd76932ea4087f7bc8d217b8b1, type: 3}
+  - {fileID: 12800000, guid: acc50c3c408cd7940b47b321ea9792ea, type: 3}
+  - {fileID: 12800000, guid: 2d7dd55994f830140815218d4a36725b, type: 3}
+  - {fileID: 12800000, guid: b8f77fe68c8ad0e45b99520511a3e93a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

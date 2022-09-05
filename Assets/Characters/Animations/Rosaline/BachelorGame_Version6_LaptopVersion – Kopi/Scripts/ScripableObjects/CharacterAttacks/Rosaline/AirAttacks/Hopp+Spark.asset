@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4d74bb06c07534f903738d14500e43, type: 3}
+  m_Name: Hopp+Spark
+  m_EditorClassIdentifier: 
+  VFX:
+  - {fileID: 7986978932591424104, guid: 03e9673ea3e4a9d4786f9e9d65dab779, type: 3}
+  dmg:
+  - 6
+  distance:
+  - 0.8
+  reaction: 02000000
+  lSpeed:
+  - 1.5
+  force:
+  - {x: 1, y: 0}
+  selfForce:
+  - {x: 0, y: 0}
+  bodyTransform: 02000000
+  notes: 0 = Left arm, 1 = Right arm, 2 = Left leg, 3 = Right Leg
+  forceMode: 00000000
+  selfForceMode: 00000000

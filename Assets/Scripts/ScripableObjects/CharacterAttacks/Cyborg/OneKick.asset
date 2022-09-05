@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4d74bb06c07534f903738d14500e43, type: 3}
+  m_Name: OneKick
+  m_EditorClassIdentifier: 
+  VFX:
+  - {fileID: 4637105190557705558, guid: fde2312d66c11d94db0544e8880853bb, type: 3}
+  - {fileID: 5482384506415273826, guid: 7536d41cfa4ac6c40bad6e442ec7356b, type: 3}
+  hitSound:
+  - {fileID: 8300000, guid: 0b495e151ed226b4aaa47822500471a3, type: 3}
+  - {fileID: 8300000, guid: edcb5af77951a064bb0cf11591678690, type: 3}
+  dmg:
+  - 10
+  - 10
+  reaction: 0400000004000000
+  lSpeed:
+  - {x: 0.1, y: 0}
+  - {x: 0.02, y: 0}
+  lSpeedSelf:
+  - {x: 0.1, y: 0}
+  - {x: 0.05, y: 0}
+  lerpTarget:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  force:
+  - {x: 6, y: 0}
+  - {x: 12, y: 0}
+  selfForce:
+  - {x: 5, y: 0}
+  - {x: 9, y: 0}
+  bodyTransform: 0300000002000000
+  forceMode: 0100000001000000
+  selfForceMode: 0100000001000000
+  attackPosition: 0000000000000000
+  definedReaction: 0000000000000000

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4d74bb06c07534f903738d14500e43, type: 3}
+  m_Name: Punch
+  m_EditorClassIdentifier: 
+  VFX:
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 2637206543938435134, guid: 62d8025f6575efc44ac7bd7f44516bdc, type: 3}
+  - {fileID: 3050413409303930321, guid: b1229f97b21123b459d457a18eca433b, type: 3}
+  - {fileID: 3050413409303930321, guid: b1229f97b21123b459d457a18eca433b, type: 3}
+  hitSound:
+  - {fileID: 8300000, guid: edcb5af77951a064bb0cf11591678690, type: 3}
+  - {fileID: 8300000, guid: 3b743c986131a2746a33ea02de99e8f8, type: 3}
+  - {fileID: 8300000, guid: caff6d8074f0bdf489fbc107a6818c5e, type: 3}
+  - {fileID: 8300000, guid: 557efa276f22dad4a9063f506cdee030, type: 3}
+  - {fileID: 8300000, guid: 4d9391d1203d83646afad67448950579, type: 3}
+  - {fileID: 8300000, guid: 584bf1cb9b124444998ca42186928b37, type: 3}
+  - {fileID: 8300000, guid: 26061f460a3ae824582ab086848d6b9c, type: 3}
+  - {fileID: 8300000, guid: 0ff335fb72f555046b9c0da76f6c792b, type: 3}
+  dmg:
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  reaction: 0200000002000000020000000200000002000000020000000200000005000000
+  lSpeed:
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: -1, y: 0.1}
+  lSpeedSelf:
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  - {x: 0.1, y: 0}
+  lerpTarget:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: -1}
+  force:
+  - {x: 0, y: 0}
+  - {x: 12.58, y: 0}
+  - {x: 8.97, y: 0}
+  - {x: 4.07, y: 0}
+  - {x: 1.3, y: 0}
+  - {x: -5.09, y: 0}
+  - {x: 1.82, y: 0}
+  - {x: 5, y: 4}
+  selfForce:
+  - {x: 5, y: 0}
+  - {x: 3, y: 0}
+  - {x: 2, y: 0}
+  - {x: 2, y: 0}
+  - {x: 2, y: 0}
+  - {x: 2, y: 0}
+  - {x: 2, y: 0}
+  - {x: 0, y: 0}
+  bodyTransform: 0000000000000000010000000000000001000000000000000100000000000000
+  forceMode: 0100000001000000010000000100000001000000010000000100000001000000
+  selfForceMode: 0100000001000000010000000100000001000000010000000100000001000000
+  attackPosition: 0000000000000000000000000000000000000000000000000000000000000000
+  definedReaction: 0000000000000000000000000000000000000000000000000000000000000000
